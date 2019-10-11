@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% extends 'testmap/base.html'%}
+{% load static%}
+
+{% block content %}
+<style>
+
+
+</style>
+<body style="background-repeat: no-repeat; background-size:cover;" background="{% static 'testmap/images/white.jpg'%}">
+
+	<section id="intro">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-12">
+
+	                <h2>Welcome to plastic world map</h2>
+	               	<img src="{% static 'testmap/images/worldtrashsstock.png'%}">
+	               	<div class="button">
+                    	<a class="btn btn-outline-dark  btn-sm" href="{% url 'map_create' %}" role="button">pls-news</a>
+                	</div>
+
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+</body>
+
+{% endblock content %}

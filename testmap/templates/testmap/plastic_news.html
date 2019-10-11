@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% extends 'testmap/base.html'%}
+{% load static%}
+
+{% block content %}
+
+<section id="created-map">
+
+
+
+    <div align="center" class="content">
+
+
+
+    <!--Interactive map created by dynamic_map function -->
+
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe frameborder="0" allowfullscreen class="embed-responsive-item" src="{% url 'dynamic_map' %}"></iframe>
+            </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+{% endblock content %}

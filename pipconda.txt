@@ -1,0 +1,7 @@
+conda install django~=2.0.0
+
+conda install ipykernel
+python -m ipykernel install --user --name=myworld
+
+conda install folium
+pip install pybase64

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% extends 'testmap/base.html'%}
+{% load static%}
+
+{% block explain %}
+
+<div class="alert alert-light alert-dismissible fade show" role="alert">
+  <p style="font-size: 10px;">plastic waste vs. plastic mismanagement, 2010</p>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+{% endblock explain %}
+
+{% block content %}
+
+<section id="created-map">
+
+
+
+    <div align="center" class="content">
+
+
+
+    <!--Interactive map created by dynamic_map function -->
+
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe frameborder="0" allowfullscreen class="embed-responsive-item" src="{% url 'dynamic_map3' %}"></iframe>
+            </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+{% endblock content %}

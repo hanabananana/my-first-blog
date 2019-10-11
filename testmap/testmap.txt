@@ -1,0 +1,4 @@
+First 프로젝트
+First 웹사이트의 첫번째 기능: testmap기능
+
+testmap 기능은 plastic news가 모여있는 지도를 보여준다.

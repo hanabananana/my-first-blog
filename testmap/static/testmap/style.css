@@ -1,0 +1,115 @@
+/*navbar font*/
+
+body{
+margin:0 0 0 0;
+
+}
+
+.navbar-brand, .nav-link {
+font-family: 'Satisfy', cursive;
+}
+
+h1,h2,h3{
+
+font-family: 'Satisfy', cursive;
+
+}
+
+#intro {
+margin-top: 30px;
+margin-bottom:30px;
+text-align: center;
+
+}
+
+#about {
+margin-top: 30px;
+margin-bottom:30px;
+text-align: center;
+
+}
+
+#created-map {
+margin:0;
+text-align: center;
+
+}
+
+#map-create{
+margin-top: 30px;
+margin-bottom:30px;
+text-align: center;
+
+}
+
+.button{
+
+padding-top: 20px;
+padding-bottom:20px;
+}
+
+#social{
+align:center;
+padding:10px;
+}
+
+#about p{
+
+text-align:justify;
+
+}
+.section-title{
+text-align:center;
+}
+
+.scrollable-menu {
+    width: 350px;
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+/*getting rid of dots from the list inside drop-down menu*/
+
+li {
+    list-style-type: none;
+
+    }
+
+/*settings for the box and scrollbar in the drop-down menu */
+
+.scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+}
+
+.scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+
+
+/* added css */
+.btn {
+    font-family: 'Satisfy', cursive;
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
